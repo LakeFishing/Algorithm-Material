@@ -66,3 +66,15 @@
 	+ 各種圖表之呈現
 	+ 多圖表繪製
 	+ CSV檔案繪製圖表
+
+## 演算法
+1. Merge Sort
+2. Maximum Subarray
+3. Counting Sort
+4. Heap Sort
+5. Assembly Line Scheduling
+6. Longest Common Subsequence
+7. Matrix Chain Ordery
+8. Task Scheduling
+9. Minimum Spanning Tree
+10. Max Flow
