@@ -1,3 +1,6 @@
+#Chap 04. Divide and Conquer
+#Page 4-1
+
 import math
 
 def FindMaxCrossingSubarray(A, low, mid, high):

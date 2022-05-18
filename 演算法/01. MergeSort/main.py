@@ -1,3 +1,6 @@
+#Chap 02. Getting Started
+#Page 1-5
+
 import math
 
 def merge(A, p, q, r):
@@ -30,17 +33,18 @@ def merge(A, p, q, r):
 def mergeSort(A, p, r):
     if p < r:
         q = int((p + r) // 2)
+        print('1', A, p, q)
         mergeSort(A, p, q)
-        print('%s' %(A[p : q + 1]))
+        print('2', A, q + 1, r)
         mergeSort(A, q + 1, r)
-        print('%s' %(A[q + 1 : r + 1]))
+        print('3', A, p, q, r)
         merge(A, p, q, r)
-        
 
 count = int(input('共幾個數字？'))
 quizList = []
 for i in range(count):
     quizList.append(int(input('第 %d 個數字：' %(i + 1))))
 
+print('0', quizList, 0, count - 1)
 mergeSort(quizList, 0, count - 1)
 print('結果：%s' %(quizList))
