@@ -33,11 +33,8 @@ def merge(A, p, q, r):
 def mergeSort(A, p, r):
     if p < r:
         q = int((p + r) // 2)
-        print('1', A, p, q)
         mergeSort(A, p, q)
-        print('2', A, q + 1, r)
         mergeSort(A, q + 1, r)
-        print('3', A, p, q, r)
         merge(A, p, q, r)
 
 count = int(input('共幾個數字？'))
