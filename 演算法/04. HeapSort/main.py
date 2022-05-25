@@ -1,3 +1,6 @@
+#Chap 06. Heapsort
+#Page 6-1
+
 def MaxHeapify(A, S, i):
     largest = i
     l = 2 * i + 1
