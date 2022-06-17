@@ -74,7 +74,7 @@
 4. Heap Sort
 5. Assembly Line Scheduling
 6. Longest Common Subsequence
-7. Matrix Chain Ordery
+7. Matrix Chain Multiplication
 8. Task Scheduling
 9. Minimum Spanning Tree
 10. Max Flow
